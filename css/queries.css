@@ -1,0 +1,31 @@
+@media (min-width: 1250px) {
+  body {
+    margin: 1em auto;
+    max-width: 1250px;
+    max-height: 100vh;
+  }
+  img {
+    max-width: 1250px;
+  }
+  .featured-work-section {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1199px) {
+  header {
+    display: flex;
+  }
+  h1, h2 {
+    text-align: right;
+  }
+  h3 {
+    text-align: left;
+  }
+  .featured-project {
+    margin-top: 0em;
+  }
+  .featured-work-section {
+    flex-direction: row;
+  }
+}
